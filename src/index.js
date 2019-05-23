@@ -18,7 +18,7 @@ const App = () => {
     };
 
     getUser();
-  }, [userLogged]);
+  }, []);
 
   if (!userChecked) return null;
 

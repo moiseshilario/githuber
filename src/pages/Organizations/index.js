@@ -13,7 +13,7 @@ const Organizations = () => (
   </View>
 );
 
-const TabIcon = ({ tintColor }) => <Icon name="building" color={tintColor} size={20} />;
+const TabIcon = ({ tintColor }) => <Icon name="building" color={tintColor} size={22} />;
 
 TabIcon.propTypes = {
   tintColor: PropTypes.string.isRequired,
