@@ -41,7 +41,6 @@ const Welcome = ({ navigation }) => {
     } catch (err) {
       setLoading(false);
       setError(true);
-      console.tron.log('user not found');
     }
   };
 
